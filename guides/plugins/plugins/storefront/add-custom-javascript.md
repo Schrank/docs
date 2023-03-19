@@ -91,12 +91,12 @@ You can also bind your plugin to a DOM element by providing a css selector:
 {% code title="<plugin root>/src/Resources/app/storefront/src/main.js" %}
 
 ```javascript
- // Import all necessary Storefront plugins
- import ExamplePlugin from './example-plugin/example-plugin.plugin';
+// Import all necessary Storefront plugins
+import ExamplePlugin from './example-plugin/example-plugin.plugin';
 
- // Register your plugin via the existing PluginManager
- const PluginManager = window.PluginManager;
- PluginManager.register('ExamplePlugin', ExamplePlugin, '[data-example-plugin]');
+// Register your plugin via the existing PluginManager
+const PluginManager = window.PluginManager;
+PluginManager.register('ExamplePlugin', ExamplePlugin, '[data-example-plugin]');
 ```
 
 {% endcode %}
